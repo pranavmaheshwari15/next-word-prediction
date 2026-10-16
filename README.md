@@ -1,7 +1,7 @@
 # next-word-prediction
 <h2>15/10/2026</h2>
 <p> Project Name - Next-Word Predictor<br>
-<u>Team Members-</u>u><br>
+<u>Team Members-</u><br>
 Pranav Maheshwari<br>
 Tushar <br>
 Anuj <br>

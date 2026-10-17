@@ -29,5 +29,5 @@ The script loads the saved model and the tokenizer, then reports the following:
 - Sample predictions decoded back into words 
 
 A bar chart of the top-k accuracy and a JSON report are saved to `src/models/saved/evaluation/`.
-To run it: `python evaluation.py`
-To test custom text: `python evaluation.py --predict "the history of the"`</p>
+/n To run it: `python evaluation.py`
+/n To test custom text: `python evaluation.py --predict "the history of the"`</p>

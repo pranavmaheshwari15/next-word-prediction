@@ -207,6 +207,13 @@ model.summary()
 # --------------------------------------------------
 
 # Reduce learning rate when validation loss stops improving.
+early_stopping = tf.keras.callbacks.EarlyStopping(
+    monitor="val_loss",
+    patience=3,
+    restore_best_weights=True,
+    verbose=1
+)
+
 reduce_lr = tf.keras.callbacks.ReduceLROnPlateau(
     monitor="val_loss",
     factor=0.5,
@@ -239,6 +246,7 @@ history = model.fit(
     epochs=EPOCHS,
     validation_data=validation_data,
     callbacks=[
+        early_stopping,
         reduce_lr,
         checkpoint
     ],

@@ -1,0 +1,25 @@
+{
+  "model": "C:\\Users\\INDIA\\next-word-prediction\\models_backup\\best_next_word_model.keras",
+  "num_samples": 331845,
+  "num_non_oov_samples": 298181,
+  "loss": 7.705772399902344,
+  "perplexity": 2221.13232421875,
+  "topk_accuracy": {
+    "1": 0.11972155675089273,
+    "3": 0.23592339797194473,
+    "5": 0.28696228660971235,
+    "10": 0.35266766110684206
+  },
+  "loss_excluding_oov": 8.39905071258545,
+  "perplexity_excluding_oov": 4442.84716796875,
+  "topk_accuracy_excluding_oov": {
+    "1": 0.03709156519027034,
+    "3": 0.150448888426828,
+    "5": 0.2066060547117355,
+    "10": 0.2795986330450297
+  },
+  "real_word_baseline_accuracy_excluding_oov": 0.07622216036568392,
+  "baseline_accuracy": 0.10144495170938239,
+  "real_word_baseline_accuracy": 0.06848980698820233,
+  "oov_target_fraction": 0.10144495170938239
+}
